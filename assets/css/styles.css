@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 9px;
+    align-content: center;
+}
+
+h2 button {
+    background-color: white;
+    border: none;
+    font-size: large;
+    font-weight: bold;
+}
+
+h2 button:hover {
+    color: blueviolet;
+}
+
+section {
+    display: flex;
+    width: 50%;
+    height: 250px;
+    margin: 5% 25%;
+    
+}
+
+section h4 {
+    border: 3px solid black;
+    border-radius: 5px;
+    width: 100%;
+    align-items: center;
+}
+
+footer {
+    width: 50%;
+    text-align: left;
+    margin: 0% 25%;
+}
+
+footer h1 {
+    font-weight: lighter;
+}
+
+footer h2 {
+    border: 1px solid black;
+    border-radius: 100%;
+    margin-bottom: 10px;
+}
+
+#btn-group button {
+    background-color: rgb(139, 2, 139);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    display: block;
+    margin: 5px;
+    text-align: center;
+    
+}
+
+#btn-group button:hover {
+    background-color: rgb(255, 6, 255);
+}
+
+#startBtn {
+    background-color: rgb(139, 2, 139);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    display: block;
+    margin-left: 47%;
+    text-align: center;
+    
+}
+
+#startBtn:hover {
+    background-color: rgb(255, 6, 255);
+}
+
+#timer {
+    font-size: smaller;
+}
